@@ -1,0 +1,28 @@
+{
+  "name": "vue-project-rsbuild",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/bridge-vue3": "^0.6.0",
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@eslint/js": "^9.9.1",
+    "@rsbuild/core": "1.0.1-rc.3",
+    "@rsbuild/plugin-vue": "1.0.1-rc.3",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^8.2.0"
+  }
+}
